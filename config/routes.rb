@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # get("/", { :controller => "articles", :action => "index" })
 
   resources "places"
-  resource "posts"
+  resources "posts"
 
 end
